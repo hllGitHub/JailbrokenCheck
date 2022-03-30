@@ -9,34 +9,17 @@
 Pod::Spec.new do |s|
   s.name             = 'JailbrokenCheck'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of JailbrokenCheck.'
+  s.summary          = '一款越狱检测小工具.'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.description      = '用来作为越狱检测和外部依赖注入检测，越狱和防越狱是无止尽的，所以这个工具会不断更新'
+  s.swift_version = '4.0'
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
-  s.homepage         = 'https://github.com/hllGithub/JailbrokenCheck'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/hllGitHub/JailbrokenCheck'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'hllGithub' => 'hllfj922@gmail.com' }
   s.source           = { :git => 'https://github.com/hllGithub/JailbrokenCheck.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'JailbrokenCheck/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'JailbrokenCheck' => ['JailbrokenCheck/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

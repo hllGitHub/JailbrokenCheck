@@ -1,0 +1,6 @@
+framework module JailbrokenCheck {
+  umbrella header "JailbrokenCheck-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "JailbrokenCheck",
+  "version": "0.1.0",
+  "summary": "A short description of JailbrokenCheck.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/hllGithub/JailbrokenCheck",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "hllGithub": "hllfj922@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/hllGithub/JailbrokenCheck.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "JailbrokenCheck/Classes/**/*"
+}
